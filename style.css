@@ -1,0 +1,106 @@
+ body {
+            margin: 0px;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        .header {
+            background-color: #3d3dff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+        }
+
+        .header-links a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 15px;
+        }
+
+        .logo {
+            width: 100px;
+        }
+        .header-links a:hover {
+            background-color:#8989ff;
+        }
+        .header-links button{
+            background-color: red;
+            padding: 5px  15px;
+            border-radius: 15px;
+            border: none;
+            color: white;
+        }
+        .header-links button:hover{
+            background-color: orange;
+        }
+        .landing-page {
+            background-color: #3d3dff;
+        display: flex;
+        color: white;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 50px;
+            border-radius: 0px 0px 25px 25px;
+        }
+        .landing-page-search input{
+            border-radius: 50px;
+            border: none;
+            height: 30px;
+        }
+        .landing-page button{
+            border-radius: 50px;
+            border: none;
+            height: 30px;
+            background-color: #d83dff;
+            color:white;
+            border-width: 5cm;
+            position: absolute;
+            left: 200px;
+            padding: 5px 15px;
+            
+        }
+        .landing-page button:hover{
+            background-color: aqua;
+        }
+        .banner-image img{
+            border-radius: 25px;
+            width: 250px;
+        }
+        
+    .card{
+        width: 300px;
+        background-color:beige ;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .card img{
+        border-radius: 15px;
+    }
+    .card h3{
+        padding: 5px 5px;
+        text-align: center;
+        height: 50px;
+    }
+    .trending-card{
+        display: flex;
+        gap: 12px;
+    }
+    .footer-container{
+        background-color:#3d3dff ;
+        height: 150px;
+        border-radius: 100px 100px 0 0;
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    .footer{
+        margin: auto;
+        text-align: center;
+        
+    }
+        
